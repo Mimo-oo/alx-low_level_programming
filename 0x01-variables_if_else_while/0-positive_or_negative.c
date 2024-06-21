@@ -6,7 +6,6 @@
  * main - This is the entry point
  * Return: 0 (Success)
  */
- 
 int main(void)
 {
 	int n;
