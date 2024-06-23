@@ -15,7 +15,7 @@ int main(void)
 			putchar((digit1 % 10) + '0');
 			putchar((digit2 % 10) + '0');
 
-			if (digit 1 == 8 && digit 2 == 9)
+			if (digit1 == 8 && digit2 == 9)
 				continue;
 
 			putchar(',');
