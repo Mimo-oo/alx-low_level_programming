@@ -1,5 +1,5 @@
-#ifndef FILE_MAIN
-#define FILE_MAIN
+#ifndef HEADER_FILE
+#define HEADER_FILE
 
 /** this is the header file
  *
