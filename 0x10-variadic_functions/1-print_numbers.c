@@ -2,7 +2,7 @@
 #include <stdarg.h>
 #include <stdio.h>
 /**
- * print_numbers - Entry Point
+ * print_numbers - prints numbers
  * @separator: string to be printed
  * @n: intergers passed
  * Return: void
