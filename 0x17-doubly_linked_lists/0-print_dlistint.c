@@ -3,7 +3,7 @@
 
 /**
  * print_dlistint - prints a doubly linked list
- * @h: head of doubly linked list (DLL)
+ * @h: head of doubly linked list(DLL)
  *
  * Return: number of nodes in DLL
  */
