@@ -1,10 +1,5 @@
 #!/bin/bash
+gcc -Wall -Wextra -Werror -pedantic -c -fPIC *.c
+gcc -shared -o liball.so *.o
+export LD_LIBRARY_PATH=.:$LD_LIBRARY_PATH
 
-directory="/alx-low_level_programming/0x18-dynamic_libraries"  # Replace with your target directory
-command_to_run="betty"   # Replace with your desired command
-
-for file in "$directory"/*; do
-    if [ -f "$file" ]; then
-        "$command_to_run" "$file"
-    fi
-done
